@@ -1,1 +1,9 @@
+# I like the space after the $
+PS1="\[\033[0;34m\][\u@\h:\w]$ \[\033[0m\]"
 
+# Vim please
+export EDITOR='vim'
+export VISUAL='vim'
+
+# Setting erase to ^H doesn't work well for me, set it back to ^?
+stty erase ^?
